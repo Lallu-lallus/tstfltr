@@ -21,7 +21,7 @@ PHOTO = [
     "https://telegra.ph/file/55f2bfebb38f8b98c03cc.jpg",
     "https://telegra.ph/file/8b08a62f850f8f75d88ac.jpg",
     "https://telegra.ph/file/fd73ebab5b4199d693819.jpg",
-    "https://telegra.ph/file/a9c8adab2dbe5f7bacd96.jpg",
+    "https://telegra.ph/file/a9c8adab2dbe5f7bacd96.jpg"
 ]
 
 @Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
