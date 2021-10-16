@@ -15,6 +15,13 @@ PHOTO = [
     "https://telegra.ph/file/b85377ca68b57129646ca.jpg",
     "https://telegra.ph/file/45c60ced4510b16c1e769.jpg",
     "https://telegra.ph/file/df25f8c5c4882e81cbdda.jpg",
+    "https://telegra.ph/file/9cef947958bb6ba4c2cd1.jpg",
+    "https://telegra.ph/file/d2718a5299a1e20f3ac9f.jpg",
+    "https://telegra.ph/file/41cf40c01f29b409b5910.jpg",
+    "https://telegra.ph/file/55f2bfebb38f8b98c03cc.jpg",
+    "https://telegra.ph/file/8b08a62f850f8f75d88ac.jpg",
+    "https://telegra.ph/file/fd73ebab5b4199d693819.jpg",
+    "https://telegra.ph/file/a9c8adab2dbe5f7bacd96.jpg",
 ]
 
 @Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
