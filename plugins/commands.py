@@ -10,7 +10,11 @@ from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
 PHOTO = [
-    "https://telegra.ph/file/ccc3a1dfc540f9b7b3059.jpg"
+    "https://telegra.ph/file/18b0ed7d5f27b98b5262d.jpg"
+    "https://telegra.ph/file/3262302e6d0e994c7c451.jpg"
+    "https://telegra.ph/file/b85377ca68b57129646ca.jpg"
+    "https://telegra.ph/file/45c60ced4510b16c1e769.jpg"
+    "https://telegra.ph/file/df25f8c5c4882e81cbdda.jpg"
 ]
 
 @Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
