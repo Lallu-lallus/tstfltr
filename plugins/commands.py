@@ -122,7 +122,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates")
+                        InlineKeyboardButton("❔ How To Use Me ❔", url="https://t.me/tg_bots_updates/21")
                     ],
                     [
                         InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat=''),
